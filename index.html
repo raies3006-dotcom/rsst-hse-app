@@ -534,7 +534,7 @@ function statutInfo(taux,total){
   if(taux>=80) return {label:'Non conforme',cls:'r',color:'#C0392B'};
   return {label:'Critique',cls:'r',color:'#C0392B'};
 }
-var API_URL='https://script.google.com/macros/s/AKfycbwMhUldVUECtPny-VhCsXzEdHXOXCoi-bRydklWvTPqcymWOQyn7Zd1BVVcVEAMnYYM/exec';
+var API_URL='https://script.google.com/macros/s/AKfycbwkRayl6gOnrPhithvUAV2DrdVnbL5bp1WN2CQc6j_KEzZG3heJT9JlcdkVr4zDVCFo/exec';
 function gs(fn,args){
   return new Promise(function(res,rej){
     if(typeof google==='undefined'||!google.script||!google.script.run){
